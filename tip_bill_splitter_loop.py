@@ -59,11 +59,9 @@ while True:
     print(f"Total bill: ₦{total_bill:.2f}")
     print(f"Each person pays: ₦{amount_per_person:.2f}")
 
-    print()
     again = input("Calculate another bill? (yes/no): ").lower().strip()
 
     if again in ("no", "n", "quit"):
         print("Thanks for using the Tip & Bill Splitter!")
         break
 
-    print()
